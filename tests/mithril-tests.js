@@ -3821,6 +3821,25 @@ function testMithril(mock) {
 		
 		return result
 	});
+	
+	test(function() {
+		// void route(String path [, any params] [, Boolean shouldReplaceHistory])
+		mock.requestAnimationFrame.$resolve() //setup
+		mock.location.search = "?"
+
+		var root = mock.document.createElement("div")
+		m.route.mode = "search"
+		m.route("/query", {key: "value"}, false)
+		mock.requestAnimationFrame.$resolve()
+		
+		var result = mock.location.search == "?key=value"
+		
+		m.mount(root, null) //teardown
+		
+		return result
+	})
+	
+	
 	//end m.route
 
 	//m.route.parseQueryString
