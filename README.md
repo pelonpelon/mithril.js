@@ -6,7 +6,9 @@ A Javascript Framework for Building Brilliant Applications
 
 See the [website](http://lhorie.github.io/mithril) for documentation
 
-There's also a [blog](http://lhorie.github.io/mithril-blog) and a [mailing list](https://groups.google.com/forum/#!forum/mithriljs)
+There's also a [blog](http://lhorie.github.io/mithril-blog) and a [mailing list](https://groups.google.com/forum/#!forum/mithriljs) and a [chat room](https://gitter.im/lhorie/mithril.js)
+
+The [wiki](https://github.com/lhorie/mithril.js/wiki) has extensive **code examples**, **tutorials**, **job listings** and a growing list of commercial projects **built with Mithril**
 
 ---
 
@@ -16,7 +18,7 @@ Mithril is a client-side MVC framework - a tool to organize code in a way that i
 
 ### Light-weight
 
-- Only 5kb gzipped, no dependencies
+- Only 7kb gzipped, no dependencies
 - Small API, small learning curve
 
 ### Robust
